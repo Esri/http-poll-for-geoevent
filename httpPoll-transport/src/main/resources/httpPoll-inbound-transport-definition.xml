@@ -1,4 +1,4 @@
-<transport name="HTTP-Sample" domain="com.esri.ges.transport.inbound" type="inbound">
+<transport name="HttpPoll-Sample" domain="com.esri.ges.transport.inbound" type="inbound">
 	<description>Sample HTTP transport that extends the basic HTTP transport.</description>
 	<propertyDefinitions>
         <propertyDefinition propertyName="lastPollTimestampName" label="Param Name for Last Poll Timestamp" description="Param Name for Last Poll Timestamp" propertyType="String" mandatory="false"  readOnly="false" defaultValue="lastPolled"/>

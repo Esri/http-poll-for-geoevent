@@ -5,7 +5,9 @@ ArcGIS GeoEvent Processor Sample Http Inbound Transport for polling a REST endpo
 ![App](httpPoll-for-geoevent.png?raw=true)
 
 ## Features
-* Http Poll Inbound Transport
+* Additional features that supports HTTP Post.
+* Posts a user-named parameter with a configurable timestamp which indicates the last time Post request was sent.
+* Converts parameters in the Parameter property to post body in addition to the timestamp parameter.
 
 ## Instructions
 
