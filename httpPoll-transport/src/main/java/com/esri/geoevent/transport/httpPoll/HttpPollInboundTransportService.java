@@ -20,7 +20,7 @@
   Redlands, California, USA 92373
 
   email: contracts@esri.com
-*/
+ */
 
 package com.esri.geoevent.transport.httpPoll;
 
@@ -32,16 +32,15 @@ import com.esri.ges.transport.util.XmlTransportDefinition;
 public class HttpPollInboundTransportService extends HttpInboundTransportService
 {
 
-  public HttpPollInboundTransportService()
-  {
-    super();
-    definition = new XmlTransportDefinition(getResourceAsStream("httpPoll-inbound-transport-definition.xml"),
-        super.definition);
-  }
+	public HttpPollInboundTransportService()
+	{
+		super();
+		definition = new XmlTransportDefinition(getResourceAsStream("httpPoll-inbound-transport-definition.xml"), super.definition);
+	}
 
-  @Override
-  public Transport createTransport() throws ComponentException
-  {
-    return new HttpPollInboundTransport(definition);
-  }
+	@Override
+	public Transport createTransport() throws ComponentException
+	{
+		return new HttpPollInboundTransport(definition);
+	}
 }
