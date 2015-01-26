@@ -1,6 +1,6 @@
 # httpPoll-for-geoevent
 
-ArcGIS 10.3 GeoEvent Extension Sample Http Inbound Transport for polling a REST endpoint.
+ArcGIS 10.3 GeoEvent Extension for Server sample Http Inbound Transport for polling a REST endpoint.
 
 ![App](httpPoll-for-geoevent.png?raw=true)
 
